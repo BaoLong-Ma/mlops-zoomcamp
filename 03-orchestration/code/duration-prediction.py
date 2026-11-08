@@ -47,7 +47,6 @@ def create_X(df, dv=None):
         X = dv.fit_transform(dicts)
     else:
         X = dv.transform(dicts)
-
     return X, dv
 
 
